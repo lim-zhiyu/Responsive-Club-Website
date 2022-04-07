@@ -10,3 +10,9 @@
     background-repeat: no-repeat;
     background-color: rgb(23,32,41);
 }
+
+.title {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
