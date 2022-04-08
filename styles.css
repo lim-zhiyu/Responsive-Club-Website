@@ -16,3 +16,15 @@
     position: relative;
     top: 200px;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+nav > a {
+    width: 100px;
+    text-align: center;
+}
