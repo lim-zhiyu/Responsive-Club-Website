@@ -1,7 +1,10 @@
+/* Override global stylesheet */
 * {
     margin: 0;
 }
 
+
+/* Banner section */
 .banner {
     height: 500px;
     background-image: url('images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg');
@@ -17,6 +20,8 @@
     top: 200px;
 }
 
+
+/* Navigation bar section */
 nav {
     display: flex;
     align-items: center;
@@ -29,32 +34,39 @@ nav > a {
     text-align: center;
 }
 
+
+/* Applies to all main sections (About, Activities, Events) */
+.main-section {
+    padding: 50px 20px;
+}
+
 h2 {
     text-align: center;
     margin: 20px 0;
 }
 
-.main-section {
-    padding: 50px 20px;
+.main-section > p {
+    margin: 20px 0;
+    text-align: center;
 }
 
 .main-container {
     display: flex;
+    justify-content: center;
+}
+
+.image-text-container {
+    flex-basis: 400px;
+    margin: 10px 20px;
 }
 
 .image-container {
     border: 1px solid black;
-    width: 400px;
     height: 300px;
-    margin: 10px 20px;
 }
 
 .text-container {
     border: 1px solid black;
     height: 100px;
-    margin: 10px 20px;
-}
-
-.main-section > p {
-    margin: 20px 0;
+    margin-top: 5px;
 }
