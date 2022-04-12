@@ -70,3 +70,7 @@ h2 {
     height: 100px;
     margin-top: 5px;
 }
+
+.text-container > h3 {
+    text-align: center;
+}
