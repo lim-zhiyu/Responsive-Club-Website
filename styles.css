@@ -34,13 +34,29 @@
 /* Navigation bar section */
 nav {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 50px;
 }
 
-nav > a {
-    width: 100px;
+.navigation-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EDCDBB;
+    flex-grow: 1;
+    margin: 2px;
+}
+
+.navigation-item:hover {
+    background-color: #FFEDDB;
+    transition: background-color 0.2s;
+}
+
+.navigation-item:active {
+    background-color: #E3B7A0;
+}
+
+.navigation-item > a {
     text-align: center;
 }
 
