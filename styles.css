@@ -7,7 +7,7 @@
 /* Banner section */
 .banner {
     height: 500px;
-    background-image: url('images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg');
+    background-image: url('images/resized/wes-hicks-MEL-jJnm7RQ-unsplash.jpg');
     background-size: 2560px;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,6 +64,9 @@ nav {
 /* Applies to all main sections (About, Activities, Events) */
 .main-section {
     padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 h2 {
@@ -79,16 +82,19 @@ h2 {
 .main-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    min-width: 967px;
 }
 
 .image-text-container {
-    flex-basis: 400px;
     margin: 10px 20px;
+    flex-shrink: 1;
 }
 
 .image-container {
     border: 1px solid black;
-    height: 300px;
+    max-height: 300px;
+    min-height: 250px;
 }
 
 .image-container > img {
