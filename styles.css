@@ -88,22 +88,26 @@ h2 {
 
 .image-text-container {
     margin: 10px 20px;
-    flex-shrink: 1;
+    width: 450px;
 }
 
 .image-container {
     border: 1px solid black;
     max-height: 300px;
     min-height: 250px;
+    width: 450px;
 }
 
 .image-container > img {
-    max-height: 100%;
+    width: 450px;
+    height: 300px;
+    object-fit: fill;
 }
 
 .text-container {
     border: 1px solid black;
     height: 100px;
+    width: 450px;
     margin-top: 5px;
 }
 
