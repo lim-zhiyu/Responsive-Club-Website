@@ -106,11 +106,16 @@ h2 {
 
 .text-container {
     border: 1px solid black;
-    height: 100px;
-    width: 450px;
+    min-height: 90px;
+    width: 430px;
     margin-top: 5px;
+    padding: 5px 10px;
 }
 
 .text-container > h3 {
     text-align: center;
+}
+
+.text-container > p {
+    text-align: justify;
 }
