@@ -1,8 +1,26 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+/* Examples:
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+
 /* Override global stylesheet */
 * {
     margin: 0;
 }
 
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+p {
+    
+}
 
 /* Banner section */
 .banner {
@@ -29,6 +47,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.4em;
 }
 
 /* Navigation bar section */
@@ -58,6 +77,7 @@ nav {
 
 .navigation-item > a {
     text-align: center;
+    font-size: 1.2em;
 }
 
 
@@ -72,11 +92,13 @@ nav {
 h2 {
     text-align: center;
     margin: 20px 0;
+    font-size: 2em;
 }
 
 .main-section > p {
     margin: 20px 0;
     text-align: center;
+    font-size: 1.4em;
 }
 
 .main-container {
@@ -84,6 +106,7 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     min-width: 967px;
+    margin: 15px 0;
 }
 
 .image-text-container {
@@ -96,10 +119,10 @@ h2 {
 }
 
 .image-container {
-    border: 1px solid black;
     height: 100%;
     max-height: 500px;
     width: 100%;
+    margin: 15px 0;
 }
 
 .image-container > img {
@@ -109,15 +132,15 @@ h2 {
 }
 
 .title-text-container, .description-text-container {
-    border: 1px solid black;
-    margin-top: 5px;
     padding: 5px 10px;
 }
 
 .title-text-container > h3 {
     text-align: center;
+    font-size: 1.4em;
 }
 
 .title-text-container > p, .description-text-container > p {
     text-align: center;
+    font-size: 1.2em;
 }
