@@ -16,10 +16,12 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+a {
+    text-decoration: none;
+}
 
-
-p {
-    
+a:visited {
+    color: black;
 }
 
 /* Banner section */
@@ -36,11 +38,10 @@ p {
 }
 
 .title-background {
-    background-color: aliceblue;
+    background-color: rgba(240,248,255,0.6);
     height: 100px;
     display: flex;
     justify-content: center;
-    opacity: 0.6;
 }
 
 .title {
