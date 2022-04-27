@@ -114,7 +114,6 @@ h2 {
     max-width: 50em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
