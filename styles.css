@@ -6,29 +6,20 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
 
-/*
-Reading materials"
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
-https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries
-*/
-
-/*
-TODO
-Make text readable on mobile by investigating font sizes
-*/
 
 /* Override global stylesheet */
 * {
     margin: 0;
 }
 
-html {
+html, h1, h2, h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
 }
 
 a {
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 a:visited {
@@ -60,6 +51,10 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.title > h1 {
+    font-size: 2rem;
 }
 
 /* Navigation bar section */
@@ -103,6 +98,7 @@ nav {
 h2 {
     text-align: center;
     margin: 20px 0;
+    font-size: 1.5rem;
 }
 
 .main-section > p {
@@ -143,6 +139,7 @@ h2 {
 
 .title-text-container > h3 {
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .title-text-container > p, .description-text-container > p {
