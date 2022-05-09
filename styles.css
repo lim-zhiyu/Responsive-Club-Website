@@ -89,7 +89,7 @@ nav {
 
 /* Applies to all main sections (About, Activities, Events) */
 .main-section {
-    padding: 50px 20px;
+    padding: 4.5rem 2rem;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -97,12 +97,12 @@ nav {
 
 h2 {
     text-align: center;
-    margin: 20px 0;
+    padding: 1.5rem 0;
     font-size: 1.5rem;
 }
 
 .main-section > p {
-    margin: 20px 0;
+    padding: 1.5rem 0;
     text-align: center;
 }
 
@@ -110,11 +110,11 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 15px 0;
+    margin: 1rem 0;
 }
 
 .image-text-container {
-    margin: 10px 20px;
+    margin: 0.5rem 1.5rem;
     max-width: 50em;
     display: flex;
     flex-direction: column;
@@ -157,12 +157,12 @@ h2 {
     }
 
     .main-section {
-        padding: 50px 0;
+        padding: 2.5rem 0;
     }
 
     .image-text-container {
         max-width: 100%;
-        margin: 10px 0;
+        margin: 0.8rem 0;
     }
 
     .description-text-container > p {
